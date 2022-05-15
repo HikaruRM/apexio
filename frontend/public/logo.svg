@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14.94328mm"
+   height="18.860895mm"
+   viewBox="0 0 14.94328 18.860895"
+   version="1.1"
+   id="svg66655"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview66657"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="-386.38851"
+     inkscape:cy="231.44736"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs66652" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-105.13661,-87.188125)">
+    <path
+       id="path61658"
+       style="fill:#000000;stroke:none;stroke-width:0.00883883;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 105.13661,87.188125 v 9.430432 4.636413 l 4.79402,4.79402 v -4.37544 l -1.31361,1.12861 -1.44591,-1.44591 2.75952,-5.098394 v -4.275709 l -2.39675,-2.396752 z m 5.07463,0 v 8.551418 l 2.39726,-4.429189 2.39676,4.42867 v -3.756877 l -2.39676,-2.396752 z m 5.07462,0 v 9.069215 l 2.75952,5.09891 -1.4459,1.44591 -1.31362,-1.12861 v 4.37544 l 4.79403,-4.79402 v -2.239142 -7.033681 l -2.39728,-2.396752 z m -2.67736,7.747849 -2.39726,4.429186 v 0.178284 h 2.1978 l -2.10944,1.812806 -0.0884,0.076 v 4.61677 h 2.39726 2.39676 v -4.61677 l -0.0884,-0.076 -2.10943,-1.812806 h 2.1978 v -0.1788 z" />
+  </g>
+</svg>

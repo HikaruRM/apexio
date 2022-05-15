@@ -1,0 +1,14 @@
+.page-header {
+    width: calc(100% - 70px);
+    height: 70px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #000000;
+
+    padding: 0 35px;
+    position: sticky;
+    top: 0;
+}
