@@ -4,9 +4,9 @@ function SignUp() {
   return (
     <>
       <h3>
-        This is the main page
+        Sign up and sell your soul!
       </h3>
-      <Link to={'/second'}>Go to second</Link>
+
     </>
   );
 }

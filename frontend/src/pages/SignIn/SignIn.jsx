@@ -4,9 +4,9 @@ function SignIn() {
   return (
     <>
       <h3>
-        This is the main page
+        Sign In Motherfucker
       </h3>
-      <Link to={'/second'}>Go to second</Link>
+
     </>
   );
 }
