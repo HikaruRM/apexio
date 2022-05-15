@@ -9,7 +9,7 @@ function Second() {
   // let name = "Johny"
   function onClick() {
     console.log('I clicked a button')
-    setName('Greg')
+    setName('Gregory')
   }
 
   return (
