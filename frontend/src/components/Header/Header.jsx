@@ -11,6 +11,13 @@ function App() {
         </NavLink>
         <nav>
           <NavLink to={"/second"}>Second</NavLink>
+          <NavLink to={"/About"}>About</NavLink>
+          <NavLink to={"/SignIn"}>
+            <button className={"button"}>Sign In</button>
+          </NavLink>
+          <NavLink to={"/SignUp"}>
+            <button className={"button"}>Sign Up</button>
+          </NavLink>
         </nav>
       </header>
     </>

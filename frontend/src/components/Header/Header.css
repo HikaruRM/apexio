@@ -6,9 +6,19 @@
     justify-content: space-between;
     align-items: center;
 
-    background-color: #000000;
+    background-color: #1e1c1c;
 
     padding: 0 35px;
     position: sticky;
     top: 0;
+}
+
+.button {
+    width: 90px;
+    height: 35px;
+
+    font-size: 20px;
+    background-color: #800033;
+    color: white;
+    font-family: 'Rubik', sans-serif;
 }
