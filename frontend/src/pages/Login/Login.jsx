@@ -10,17 +10,15 @@ function Login() {
         <form className={'SignInForm'}>
           <div className={'center-wrapper'}>
             <div className={'header'}>
-              <h3 className={"FormH3"}>Sign In</h3>
+              <h3 className={"FormH3"}>Sign In Here</h3>
             </div>
               <label className={"label"}>Email or Username</label>
               <input className={"input"} type={"text"} placeholder={"Your Email or Username"}/>
               <label className={"label"}>Password</label>
               <input className={"input"} type={"password"} placeholder={"Your Password"}/>
-              <button className={"FormButton"}>Sign In</button>
-            <div>
               <span>Don't have an account? </span>
               <Link className={'link'} to={'/SignUp'}>Sign Up</Link>
-            </div>
+              <button className={"FormButton"}>Sign In</button>
           </div>
         </form>
       </div>

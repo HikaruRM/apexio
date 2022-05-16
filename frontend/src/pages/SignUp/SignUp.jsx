@@ -17,11 +17,9 @@ function SignUp() {
             <input className={"input"} type={"text"} placeholder={"Your Username"}/>
             <label className={"label"}>Password</label>
             <input className={"input"} type={"password"} placeholder={"Your Password"}/>
+            <span>Do you have Account? </span>
+            <Link className={'link'} to={'/signin'}>Sign In</Link>
             <button className={"FormButton"}>Sign Up</button>
-            <div>
-              <span>Do you have Account? </span>
-              <Link className={'link'} to={'/signin'}>Sign In</Link>
-            </div>
           </div>
         </form>
       </div>
