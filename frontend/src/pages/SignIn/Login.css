@@ -13,10 +13,10 @@
     height: 460px;
     width: 400px;
     background-color: #090909;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 42%;
-    left: 50%;
+    /*position: absolute;*/
+    /*transform: translate(-50%,-50%);*/
+    /*top: 42%;*/
+    /*left: 50%;*/
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 0;
