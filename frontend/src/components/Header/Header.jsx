@@ -15,7 +15,6 @@ function App() {
           <NavLink to={"/second"}>Second</NavLink>
           <NavLink to={"/about"}>About</NavLink>
           <button className={"button"} onClick={() => {navigate('/signin')}}>Sign In</button>
-          <button className={"button"} onClick={() => {navigate('/signup')}}>Sign Up</button>
         </nav>
       </header>
     </>
