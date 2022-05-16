@@ -1,12 +1,14 @@
 import './Footer.css';
-import {NavLink} from "react-router-dom";
+
 
 
 function App() {
   return (
     <>
       <footer className={"page-footer"}>
-
+          <a href="https://github.com/HikaruRM/apexio">
+              <img src={"/github.svg"} alt={"Logo for github"}/>
+          </a>
       </footer>
     </>
   );
