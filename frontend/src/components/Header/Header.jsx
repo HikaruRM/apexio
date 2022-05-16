@@ -1,8 +1,10 @@
 import './Header.css';
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 
 function App() {
+  const navigate = useNavigate()
+
   return (
     <>
       <header className={"page-header"}>
@@ -11,13 +13,9 @@ function App() {
         </NavLink>
         <nav>
           <NavLink to={"/second"}>Second</NavLink>
-          <NavLink to={"/About"}>About</NavLink>
-          <NavLink to={"/SignIn"}>
-            <button className={"button"}>Sign In</button>
-          </NavLink>
-          <NavLink to={"/SignUp"}>
-            <button className={"button"}>Sign Up</button>
-          </NavLink>
+          <NavLink to={"/about"}>About</NavLink>
+          <button className={"button"} onClick={() => {navigate('/signin')}}>Sign In</button>
+          <button className={"button"} onClick={() => {navigate('/signup')}}>Sign Up</button>
         </nav>
       </header>
     </>

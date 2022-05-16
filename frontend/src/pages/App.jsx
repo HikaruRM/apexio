@@ -7,6 +7,7 @@ import Header from "../components/Header/Header";
 import About from "./About/About";
 import SignIn from "./SignIn/SignIn";
 import SignUp from "./SignUp/SignUp";
+import Footer from "../components/Footer/Footer";
 
 
 function App() {
@@ -18,10 +19,11 @@ function App() {
       <Routes>
         <Route path={"/"} element={<Main />} />
         <Route path={"second"} element={<Second />} />
-        <Route path={"About"} element={<About />} />
-        <Route path={"SignIn"} element={<SignIn />} />
-        <Route path={"SignUp"} element={<SignUp />} />
+        <Route path={"about"} element={<About />} />
+        <Route path={"signin"} element={<SignIn />} />
+        <Route path={"signup"} element={<SignUp />} />
       </Routes>
+      <Footer />
     </>
   );
 }
