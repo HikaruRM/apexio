@@ -16,6 +16,7 @@ function App() {
           <button className={"header-button"} onClick={() => {navigate('/store')}}>Store</button>
           <button className={"header-button"} onClick={() => {navigate('/qanda')}}>Q&A</button>
           <button className={"header-button"} onClick={() => {navigate('/contact')}}>Contact</button>
+          <button className={"header-button"} onClick={() => {navigate('/about')}}>About</button>
         </nav>
         <nav>
           <button className={"button"} onClick={() => {navigate('/signin')}}>Sign In</button>
