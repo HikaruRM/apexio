@@ -15,13 +15,15 @@ function App() {
 
 
       <Header />
-      <Routes>
-        <Route path={"/"} element={<Main />} />
-        <Route path={"second"} element={<Second />} />
-        <Route path={"about"} element={<About />} />
-        <Route path={"signin"} element={<SignIn />} />
-        <Route path={"signup"} element={<SignUp />} />
-      </Routes>
+      <div className={"content"}>
+        <Routes>
+          <Route path={"/"} element={<Main />} />
+          <Route path={"second"} element={<Second />} />
+          <Route path={"about"} element={<About />} />
+          <Route path={"signin"} element={<SignIn />} />
+          <Route path={"signup"} element={<SignUp />} />
+        </Routes>
+      </div>
       <Footer />
     </>
   );

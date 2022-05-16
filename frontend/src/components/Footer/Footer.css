@@ -2,7 +2,7 @@
     width: calc(100% - 70px);
     height: 70px;
     display: flex;
-    position: fixed;
+
 
     justify-content: space-between;
     align-items: center;
