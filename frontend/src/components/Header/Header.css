@@ -21,7 +21,8 @@
     border: 0;
     width: 89.75px;
     border-radius: 5px;
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
+    color: inherit;
     cursor: pointer;
     display: inline-block;
     font-family: 'Rubik', sans-serif;
@@ -37,7 +38,7 @@
     display: inline-flex;
     margin-left: 10px;
     border: none;
-    color: #FFFFFF ;
+    color: inherit;
     background-color: transparent;
     cursor: pointer;
 
