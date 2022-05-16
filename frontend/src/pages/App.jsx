@@ -11,7 +11,13 @@ import Footer from "../components/Footer/Footer";
 
 function App() {
   return (
+
     <>
+      <script>
+        useEffect(() => {
+        document.title = "Apex.io"
+      }, []);
+      </script>
 
 
       <Header />
@@ -26,6 +32,7 @@ function App() {
       </div>
       <Footer />
     </>
+
   );
 }
 
