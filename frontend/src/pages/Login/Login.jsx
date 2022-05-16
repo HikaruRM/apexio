@@ -19,7 +19,7 @@ function Login() {
               <button className={"FormButton"}>Sign In</button>
             <div>
               <span>Don't have an account? </span>
-              <Link className={'link'} to={'/register'}>Sign Up</Link>
+              <Link className={'link'} to={'/SignUp'}>Sign Up</Link>
             </div>
           </div>
         </form>

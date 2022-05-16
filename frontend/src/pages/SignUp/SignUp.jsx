@@ -1,12 +1,16 @@
 import {Link} from "react-router-dom";
 import "./SignUp.css"
+import React from "react";
 
 function SignUp() {
   return (
     <>
-        <div>
-          <form className={"SignUpForm"}>
-            <h3 className={"FormH3"}>Sign Up Here</h3>
+      <div className={'wrapper'}>
+        <form className={'SignUpForm'}>
+          <div className={'center-wrapper'}>
+            <div className={'header'}>
+              <h3 className={"FormH3"}>Sign Up Here</h3>
+            </div>
             <label className={"label"}>Email</label>
             <input className={"input"} type={"text"} placeholder={"Your email"}/>
             <label className={"label"}>Username</label>
@@ -14,8 +18,13 @@ function SignUp() {
             <label className={"label"}>Password</label>
             <input className={"input"} type={"password"} placeholder={"Your Password"}/>
             <button className={"FormButton"}>Sign Up</button>
-          </form>
-        </div>
+            <div>
+              <span>Do you have Account? </span>
+              <Link className={'link'} to={'/signin'}>Sign In</Link>
+            </div>
+          </div>
+        </form>
+      </div>
 
 
     </>
@@ -23,3 +32,14 @@ function SignUp() {
 }
 
 export default SignUp;
+
+<form className={"SignUpForm"}>
+  <h3 className={"FormH3"}>Sign Up Here</h3>
+  <label className={"label"}>Email</label>
+  <input className={"input"} type={"text"} placeholder={"Your email"}/>
+  <label className={"label"}>Username</label>
+  <input className={"input"} type={"text"} placeholder={"Your Username"}/>
+  <label className={"label"}>Password</label>
+  <input className={"input"} type={"password"} placeholder={"Your Password"}/>
+  <button className={"FormButton"}>Sign Up</button>
+</form>
