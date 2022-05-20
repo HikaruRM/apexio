@@ -12,7 +12,7 @@ function SignUp() {
               <h3 className={"FormH3"}>Sign Up Here</h3>
             </div>
             <label className={"label"}>Email</label>
-            <input className={"input"} type={"text"} placeholder={"Your email"}/>
+            <input className={"input"} type={"email"} placeholder={"Your email"}/>
             <label className={"label"}>Username</label>
             <input className={"input"} type={"text"} placeholder={"Your Username"}/>
             <label className={"label"}>Password</label>

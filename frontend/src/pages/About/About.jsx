@@ -3,8 +3,11 @@ import './About.css';
 function About() {
   return (
     <>
-      <div className={"div-text"}>
-        About page :)
+      <h1 className={"title"}>About Apex.io</h1>
+      <div className={"div-center"}>
+        <div className={"div-text"}>
+          Hello
+        </div>
       </div>
     </>
   );
