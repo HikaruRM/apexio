@@ -1,20 +1,40 @@
 require('dotenv').config()
 const express = require('express')
+const mysql = require("mysql")
+const cors = require('cors')
+const {ER_DUP_ENTRY} = require("mysql/lib/protocol/constants/errors");
+
 const app = express()
+var corsOptions = {
+    origin: 'http://localhost:3000',
+    optionsSuccessStatus: 200
+}
+app.use(cors(corsOptions))
+app.use(express.json());
 
 
-app.get('/', (req, res) => {
-    return res.send('Received a GET HTTP method');
-})
+const db = mysql.createConnection({
+    user: "root",
+    host: "localhost",
+    password: "",
+    database: "apexio"
+    });
 
-app.post('/', (req, res) => {
-    return res.send('Received a POST HTTP method')
-})
+app.post("/register", async (req, res)=>{
+    const email = req.body.email
+    const username = req.body.username
+    const passwrd = req.body.passwrd
 
-
-
-
-
+    await db.query("INSERT INTO users (email, username, passwrd) VALUES (?, ?, ?)", [email, username, passwrd], (err) => {
+        if (err) {
+            if (err.errno === ER_DUP_ENTRY) {
+                res.status(400).send({error: 'Duplicate username or email'})
+            } else res.status(400).send({error: 'SQL Error'})
+        } else {
+            res.sendStatus(200)
+        }
+    })
+});
 
 app.listen(process.env.PORT, () =>
     console.log(`Example app listening on port ${process.env.PORT}!`),
