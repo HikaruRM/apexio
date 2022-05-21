@@ -36,6 +36,25 @@ app.post("/register", async (req, res)=>{
     })
 });
 
+app.post("/login", (req, res)=> {
+    const username = req.body.username;
+    const passwrd = req.body.passwrd;
+
+    db.query("SELECT * FROM users WHERE username = ? AND passwrd = ?", [username, passwrd], (err, result)=>{
+        if (err) {
+            res.send({err: err})
+        }
+
+        if (result) {
+            res.send(result)
+
+        } else {
+            res.send({message: "Wrong username or password "})
+        }
+
+    })
+});
+
 app.listen(process.env.PORT, () =>
     console.log(`Example app listening on port ${process.env.PORT}!`),
 )
