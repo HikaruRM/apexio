@@ -4,9 +4,9 @@ function About() {
   return (
     <>
       <h1 className={"title"}>About Apex.io</h1>
-      <div className={"div-center"}>
-        <div className={"div-text"}>
-          Hello
+      <div className={"div-text"}>
+        <div className={"wrapper"}>
+          <p></p>
         </div>
       </div>
     </>
