@@ -5,7 +5,7 @@ function faq() {
     <>
       <h1 className={"title"}>Frequently asked questions</h1>
       <div className={"div-text"}>
-        <p className={"Question"}>Why are you the number one store in europe?</p>
+        <p className={"Question"}>Why are you the number one store in Europe?</p>
         <p className={"answer"}>Because we said so</p>
         <p className={"Question"}>How do I order your product?</p>
         <p className={"answer"}>To take an order you must email or call us</p>
