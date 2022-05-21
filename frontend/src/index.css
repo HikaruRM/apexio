@@ -24,7 +24,24 @@ code {
 }
 .div-text {
   font-size: 24px;
-  padding-top: 4px;
+  padding-top: 2px;
+  width: 700px;
+
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+  margin-top: 0;
+
+  font-size: 40px;
+
+}
 
 
+p {
+  text-align: left;
+  margin-top: 6px ;
+  margin-bottom: 6px;
 }

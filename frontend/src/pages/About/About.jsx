@@ -3,11 +3,11 @@ import './About.css';
 function About() {
   return (
     <>
-      <h1 className={"title"}>About Apex.io</h1>
+      <h1 className={"title"}>Who are we</h1>
       <div className={"div-text"}>
-        <div className={"wrapper"}>
-          <p></p>
-        </div>
+        <p>Apex is the number one computer accessory store in europe.</p>
+        <p>Creators of Apex are Hikaru and Prada0x</p>
+        <p>Store was created in 2022.</p>
       </div>
     </>
   );
