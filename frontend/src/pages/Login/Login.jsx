@@ -1,6 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
 import './Login.css';
+
 
 function Login() {
   return (
@@ -12,7 +13,7 @@ function Login() {
               <h3 className={"FormH3"}>Sign In Here</h3>
             </div>
               <label className={"label"}>Email or Username</label>
-              <input className={"input"} type={"text"} placeholder={"Your Username"}/>
+              <input className={"input"} type={"email"} placeholder={"Your Username"}/>
               <label className={"label"}>Password</label>
               <input className={"input"} type={"password"} placeholder={"Your Password"}/>
               <span>Don't have an account? </span>

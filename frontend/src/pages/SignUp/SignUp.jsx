@@ -1,41 +1,22 @@
 import {Link} from "react-router-dom";
 import "./SignUp.css"
-import React, {useState} from "react";
-import axios from "axios";
-
+import React from "react";
 
 function SignUp() {
-
-  const [emailReg, setEmailReg] =useState("");
-  const [usernameReg, setUsernameReg] = useState("");
-  const [passwordReg, setPasswordeReg] = useState("");
-
-  const register = (event) =>{
-    event.preventDefault()
-    axios.post("http://localhost:3001/register", {
-      email: emailReg,
-      username: usernameReg,
-      passwrd: passwordReg,
-    }).then((response)=> {
-      console.log(response);
-    });
-  };
-
-
   return (
     <>
       <div className={'wrapper'}>
-        <form className={'SignUpForm'} onSubmit={register}>
+        <form className={'SignUpForm'}>
           <div className={'center-wrapper'}>
             <div className={'header'}>
               <h3 className={"FormH3"}>Sign Up Here</h3>
             </div>
             <label className={"label"}>Email</label>
-            <input className={"input"} type={"text"} placeholder={"Your email"} onChange={(e)=>{setEmailReg(e.target.value)}}/>
+            <input className={"input"} type={"email"} placeholder={"Your email"}/>
             <label className={"label"}>Username</label>
-            <input className={"input"} type={"text"} placeholder={"Your Username"} onChange={(e)=>{setUsernameReg(e.target.value)}}/>
+            <input className={"input"} type={"text"} placeholder={"Your Username"}/>
             <label className={"label"}>Password</label>
-            <input className={"input"} type={"password"} placeholder={"Your Password"} onChange={(e)=>{setPasswordeReg(e.target.value)}}/>
+            <input className={"input"} type={"password"} placeholder={"Your Password"}/>
             <span>Do you have Account? </span>
             <Link className={'link'} to={'/signin'}>Sign In</Link>
             <button className={"FormButton"}>Sign Up</button>

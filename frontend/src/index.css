@@ -11,6 +11,7 @@ body {
   background-color: #181818;
   color: white;
   font-family: 'Rubik', sans-serif;
+
 }
 
 code {
@@ -18,7 +19,12 @@ code {
     monospace;
 }
 
+.div-center {
+  text-align: center;
+}
 .div-text {
   font-size: 24px;
   padding-top: 4px;
+
+
 }
