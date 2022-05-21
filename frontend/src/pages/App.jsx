@@ -29,7 +29,7 @@ function App() {
           <Route path={"about"} element={<About />} />
           <Route path={"signin"} element={<SignIn />} />
           <Route path={"signup"} element={<SignUp />} />
-          <Route path={"faq"} element={<QandA />} />
+          <Route path={"qanda"} element={<QandA />} />
         </Routes>
       </div>
       <Footer />

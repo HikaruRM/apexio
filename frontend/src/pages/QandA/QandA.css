@@ -1,0 +1,10 @@
+.Question {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.answer {
+    font-weight: 300px;
+    color: #bbbbbb;
+    font-size: 25px;
+}
