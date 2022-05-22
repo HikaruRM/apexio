@@ -29,7 +29,7 @@ function Login() {
               <label className={"label"}>Password</label>
               <input className={"input"} type={"password"} placeholder={"Your Password"} onChange={(e) => {setPasswrd(e.target.value)}}/>
               <span>Don't have an account? </span>
-              <Link className={'link'} to={'/SignUp'}>Sign Up</Link>
+              <Link className={'link'} to={'/signup'}>Sign Up</Link>
               <button className={"FormButton"}>Sign In</button>
           </div>
         </form>

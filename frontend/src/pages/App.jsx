@@ -9,6 +9,8 @@ import SignUp from "./SignUp/SignUp";
 import Footer from "../components/Footer/Footer";
 import QandA from "./QandA/QandA"
 import NotFound from "./NotFound/NotFound";
+import Store from "./Store/Store";
+import Second from "./Secondary/Second"
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
             <Route path={"signin"} element={<SignIn />} />
             <Route path={"signup"} element={<SignUp />} />
             <Route path={"qanda"} element={<QandA />} />
+            <Route path={"store"} element={<Store /> } />
+            <Route path={"second"} element={<Second /> } />
             <Route path={"*"} element={<NotFound />} />
         </Routes>
       </div>
