@@ -1,8 +1,5 @@
 export const Sliderdata = [
   {
-    image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/Web_Banner-2_1_1920x914.jpg?v=1651602148'
-  },
-  {
     image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/slider-CreatorCup-Lolathon_2aab5156-8af9-4252-a0ba-a3bc649477be_1920x914.jpg?v=1653074990'
   },
   {
@@ -13,5 +10,8 @@ export const Sliderdata = [
   },
   {
     image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/Web_Banner_19_1920x914.jpg?v=1652468063'
+  },
+  {
+    image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/Web_Banner-2_1_1920x914.jpg?v=1651602148'
   }
 ]
