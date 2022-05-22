@@ -8,11 +8,13 @@ function SignUp() {
   const [emailReg, setEmailReg] = useState();
   const [passwrdReg, setPasswrdReg] = useState();
 
+  const [status, setStatus] = useState();
+
   const register = (e) => {
     e.preventDefault()
     axios.post("http://localhost:3001/register",{email: emailReg ,username: usernameReg ,passwrd: passwrdReg}
     ).then((response)=> {
-      console.log(response);
+      console.log(response)
     });
   }
 

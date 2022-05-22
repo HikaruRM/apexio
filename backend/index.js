@@ -12,13 +12,16 @@ var corsOptions = {
 app.use(cors(corsOptions))
 app.use(express.json());
 
-
 const db = mysql.createConnection({
-    user: "root",
-    host: "localhost",
-    password: "",
-    database: "apexio"
+    user: process.env.DATABASE_USER,
+    host: process.env.DATABASE_HOST,
+    password: process.env.DATABASE_PASSWORD,
+    database: process.env.DATABASE
     });
+
+app.listen(process.env.PORT, () =>
+    console.log(`Example app listening on port ${process.env.PORT}!`),
+)
 
 app.post("/register", async (req, res)=>{
     const email = req.body.email
@@ -47,14 +50,10 @@ app.post("/login", (req, res)=> {
 
         if (result) {
             res.send(result)
-
         } else {
             res.send({message: "Wrong username or password "})
         }
-
     })
 });
 
-app.listen(process.env.PORT, () =>
-    console.log(`Example app listening on port ${process.env.PORT}!`),
-)
+
