@@ -8,6 +8,7 @@ import SignIn from "./Login/Login";
 import SignUp from "./SignUp/SignUp";
 import Footer from "../components/Footer/Footer";
 import QandA from "./QandA/QandA"
+import NotFound from "./NotFound/NotFound";
 
 
 function App() {
@@ -24,12 +25,13 @@ function App() {
       <Header />
       <div className={"content"}>
         <Routes>
-          <Route path={"/"} element={<Main />} />
-          <Route path={"contact"} element={<Contact />} />
-          <Route path={"about"} element={<About />} />
-          <Route path={"signin"} element={<SignIn />} />
-          <Route path={"signup"} element={<SignUp />} />
-          <Route path={"qanda"} element={<QandA />} />
+            <Route path={"/"} element={<Main />} />
+            <Route path={"contact"} element={<Contact />} />
+            <Route path={"about"} element={<About />} />
+            <Route path={"signin"} element={<SignIn />} />
+            <Route path={"signup"} element={<SignUp />} />
+            <Route path={"qanda"} element={<QandA />} />
+            <Route path={"*"} element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
