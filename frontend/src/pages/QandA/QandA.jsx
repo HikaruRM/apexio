@@ -15,7 +15,7 @@ function faq() {
         <p className={"Question"}>What are the shipping fees?</p>
         <p className={"answer"}>We have two options:</p>
         <p className={"answer"}>Free shipping, takes up to 365 days to ship</p>
-        <p className={"answer"}>Premium shipping, ships within 2 days and costs 500€</p>
+        <p className={"answer"}>Premium shipping,costs 69€ takes up to 2 days to ship</p>
         <p className={"Question"}>How long did it take to make this website?</p>
         <p className={"answer"}>Around 2 weeks</p>
         <p className={"Question"}>What are you using to make this website?</p>

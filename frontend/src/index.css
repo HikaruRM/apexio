@@ -25,7 +25,9 @@ code {
 .div-text {
   font-size: 24px;
   padding-top: 2px;
+  padding-left: 15px;
   width: 700px;
+
 
 }
 .title {
@@ -36,6 +38,24 @@ code {
   margin-top: 0;
 
   font-size: 40px;
+
+}
+
+.sub-title {
+  width: 700px;
+  align-items: left;
+  display: flex;
+  margin: 1px;
+
+}
+
+.div-title {
+  width: 700px;
+  align-items: left;
+  display: flex;
+  margin: 1px;
+
+  font-size: 30px;
 
 }
 
