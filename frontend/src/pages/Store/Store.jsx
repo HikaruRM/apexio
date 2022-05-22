@@ -17,7 +17,7 @@ export default class ProductList extends Component {
         return (
             <div key={index}>
                 <h3>
-                    <a title={product.name + ' details'} href="/">{product.name}</a>
+                    <a title={product.name + ' details'} href="/" className={"link"}>{product.name}</a>
                 </h3>
                 <p>Description: {product.description}  {product.price}€</p>
             </div>
@@ -27,9 +27,9 @@ export default class ProductList extends Component {
     render() {
         return (
             <>
-                <h2>Products</h2>
+                <h2 className={"title"}>Products</h2>
                 <br/>
-                <div>
+                <div className={"div-text"}>
                     {
                         products.map((product, index) => {
                             return this.getProduct(product, index);

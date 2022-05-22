@@ -1,17 +1,20 @@
 export const Sliderdata = [
   {
-    image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/slider-CreatorCup-Lolathon_2aab5156-8af9-4252-a0ba-a3bc649477be_1920x914.jpg?v=1653074990'
+    image: 'https://images.evga.com/articles/01536/header.jpg'
   },
   {
-    image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/Web_Banner_17_cd2874e4-afda-4382-8cf9-2e68c91598be_1920x914.jpg?v=1649330544'
+    image: 'https://dateks.lv/images/text/upload/baneri/2021/pbanew/980x460.png'
   },
   {
-    image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/Web_Banner_1080b902-9aaa-48a5-a9ef-137367fdc52a_1920x914.jpg?v=1652899826'
+    image: 'https://images.evga.com/articles/01534/slide2.jpg'
   },
   {
-    image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/Web_Banner_19_1920x914.jpg?v=1652468063'
+    image: 'https://i02.appmifile.com/778_operator_sg/17/08/2021/8e8238d0f23843b89b23c6c6f859fb6e.jpg'
   },
   {
-    image: 'https://cdn.shopify.com/s/files/1/1265/2145/files/Web_Banner-2_1_1920x914.jpg?v=1651602148'
+    image: 'https://dateks.lv/images/text/upload/jaunumi/2022/netflixq2/980x460.png'
+  },
+  {
+    image: 'https://www.apple.com/v/home/an/images/promos/ipad-air/promo_ipadair_avail__ferd4bfpcdm6_large.jpg'
   }
 ]

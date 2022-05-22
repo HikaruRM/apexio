@@ -8,8 +8,8 @@
 }
 
 .SliderImages {
-    width: 65vw;
-    border-radius: 10px;
+    width: 75vw;
+    border-radius: 20px;
 
 }
 
@@ -17,7 +17,7 @@
     position: absolute;
     top: 50%;
     right: -1px;
-    font-size: 3rem;
+    font-size: 4rem;
     color: inherit;
     z-index: 10;
     cursor: pointer;
@@ -29,7 +29,7 @@
     position: absolute;
     top: 50%;
     left: -1px;
-    font-size: 3rem;
+    font-size: 4rem;
     color: inherit;    z-index: 10;
     cursor: pointer;
     user-select: none;
