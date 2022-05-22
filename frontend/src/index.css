@@ -11,6 +11,7 @@ body {
   background-color: #181818;
   color: white;
   font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
 
 }
 

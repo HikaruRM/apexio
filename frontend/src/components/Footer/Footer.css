@@ -1,5 +1,5 @@
 .page-footer {
-    width: calc(100% - 70px);
+    position: ;
     height: 70px;
     display: flex;
 
@@ -10,6 +10,7 @@
     background-color: #090909;
     box-shadow: 0 0 40px #070707;
 
+    margin-top: auto;
     padding: 0 35px;
     bottom: 0;
 
