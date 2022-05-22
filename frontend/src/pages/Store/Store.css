@@ -1,0 +1,20 @@
+.product_img{
+    float: left;
+    display: inline-block;
+    width: 20%;
+
+
+}
+
+.product{
+    float: right;
+    display: inline-block;
+    width: 65%;
+
+}
+.product_div{
+    height: 80%;
+}
+.prod_object {
+    font-size: 24px;
+}
