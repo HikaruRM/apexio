@@ -12,9 +12,6 @@ import './Store.css';
 
 export default NotFound;*/
 export default class ProductList extends Component {
-    share() {
-        window.alert('The product has been shared!');
-    }
 
     getProduct(product, index) {
         return (
