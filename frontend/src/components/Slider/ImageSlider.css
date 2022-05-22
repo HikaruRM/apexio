@@ -8,8 +8,7 @@
 }
 
 .SliderImages {
-    width: 1440px;
-    height: 800px;
+    width: 60vw;
     border-radius: 10px;
 
 }
@@ -17,7 +16,7 @@
 .right-arrow {
     position: absolute;
     top: 50%;
-    right: -120px;
+    right: -1px;
     font-size: 3rem;
     color: inherit;
     z-index: 10;
@@ -29,7 +28,7 @@
 .left-arrow {
     position: absolute;
     top: 50%;
-    left: -120px;
+    left: -1px;
     font-size: 3rem;
     color: inherit;    z-index: 10;
     cursor: pointer;
